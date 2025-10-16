@@ -38,6 +38,6 @@ This Smart Bank Management System provides an online banking platform where user
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/SmartBankManagementSystem.git
+   git clone https://github.com/harioggu/SmartBankManagementSystem.git
    cd SmartBankManagementSystem
 
