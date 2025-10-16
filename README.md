@@ -1,43 +1,43 @@
 # BankManagementSystemUpstream
 
-# 🏦 Bank Management System
+# 🏦 Smart Bank Management System
 
-A **Spring MVC**-based web application designed to manage core banking operations such as customer registration, account management, transactions, and balance inquiries.  
-This project uses **Hibernate (JPA)** for ORM, **MySQL** as the database, and **HTML/CSS** for the frontend.
+**Problem Statement:**  
+Traditional banking systems require customers to visit the bank for many services, leading to inefficiency.  
+This Smart Bank Management System provides an online banking platform where users can manage accounts, perform transactions, and apply for loans.
+
+---
+
+## 🛠 Tech Stack
+
+| Layer      | Technology                       |
+|------------|---------------------------------|
+| Backend    | Spring MVC, Spring ORM (JPA)     |
+| Frontend   | JSP, HTML, CSS                   |
+| Database   | MySQL                            |
+| Server     | Apache Tomcat                    |
 
 ---
 
 ## 🚀 Features
 
-- 👤 **Customer Management** – Add, view, update, and delete customer details.  
-- 💰 **Account Management** – Create and manage savings/current accounts.  
-- 🔁 **Transactions** – Perform deposits, withdrawals, and fund transfers.  
-- 📊 **Balance Inquiry** – View available balance and recent transaction history.  
-- 🔐 **Authentication** – Simple login/logout for admin and customers.  
-- 🖥️ **User Interface** – Clean and responsive frontend built using HTML & CSS.
+### 👤 Customer Functionalities
+- ✅ **User Registration & Login** – Secure login with OTP/email verification.  
+- ✅ **Account Dashboard** – View balance, transactions, and loan status.  
+- ✅ **Fund Transfer** – Transfer money using account number or UPI ID.  
+- ✅ **Mini Statement** – Get last 10 transactions in a detailed view.  
+- ✅ **Loan Application** – Apply for loans and track approval status.  
+
+### 👨‍💼 Admin Functionalities
+- ✅ **Approve Loan Requests** – Review and approve/reject loan applications.  
+- ✅ **Manage Customers** – View and manage all customer accounts.  
 
 ---
 
-## 🧰 Tech Stack
+## ⚙️ Setup & Installation
 
-| Layer | Technology |
-|--------|-------------|
-| Backend | Spring MVC, Hibernate (JPA) |
-| Database | MySQL |
-| Frontend | HTML, CSS |
-| Build Tool | Maven |
-| Server | Apache Tomcat |
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/SmartBankManagementSystem.git
+   cd SmartBankManagementSystem
 
----
-
-## 🗄️ Database Configuration
-
-1. Create a database named `bank_db` in MySQL.  
-2. Update the database credentials in `src/main/resources/hibernate.cfg.xml` (or `application.properties` if used):
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/bank_db
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
-hibernate.hbm2ddl.auto=update
