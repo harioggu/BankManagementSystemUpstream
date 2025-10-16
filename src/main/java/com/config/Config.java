@@ -70,8 +70,8 @@ public class Config {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
         mailSender.setHost("smtp.gmail.com");
         mailSender.setPort(587);
-        mailSender.setUsername("harioggupersonal12@gmail.com");
-        mailSender.setPassword("sajg cppp oakd zhts"); // use App Password if 2FA is on
+        mailSender.setUsername("***@gmail.com");
+        mailSender.setPassword("***"); // use App Password if 2FA is on
 
         Properties props = mailSender.getJavaMailProperties();
         props.put("mail.smtp.auth", "true");
