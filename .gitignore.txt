@@ -1,0 +1,28 @@
+# Java build
+target/
+bin/
+*.class
+
+# Logs
+*.log
+
+# IDE files
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven / Gradle
+!.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# Spring Boot output
+*.jar
+*.war
+*.ear
